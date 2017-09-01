@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("books")
 public class BookController {
 
-	@GetMapping("/")
+	@GetMapping
 	public List<String> list() {
 		List<String> books = new ArrayList<>();
 		books.add("Java");
